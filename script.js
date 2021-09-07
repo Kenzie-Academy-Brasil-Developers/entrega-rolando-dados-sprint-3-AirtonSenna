@@ -47,6 +47,7 @@ btn.addEventListener('click', function() {
         singleResult.innerText = `${i + 2}: ${diceResults[i]}`
         singleResult.className = 'singleResult';
         singleResult.style.width = `${diceResults[i] * 3}px`
+        singleResult.style.transition = 'all 0.3s';
         boxResults.append(singleResult) 
     }
 
