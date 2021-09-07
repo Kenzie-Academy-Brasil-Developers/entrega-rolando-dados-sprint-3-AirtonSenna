@@ -46,8 +46,9 @@ button:hover {
     background-color: #007aff;
     color: black;
     border: black 3px solid;
-    
 }
+
+
  
 @media screen and (min-width: 600px) {
    
@@ -64,11 +65,8 @@ button:hover {
         margin: 5px 0 30px 30px;
     }
 
-   
-
     #boxResults {
         align-items: unset;
-        
         width: 95%;
     }
 
